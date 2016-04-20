@@ -1,0 +1,107 @@
+/**
+ *
+ *  Custom Bootstrap CSS for WISIO
+ *  Author @avsholeh
+ * 
+**/
+
+/*  Color Details
+    Indigo Primary   #3F51B5
+    Indigo Dark      #303F9F
+    Indigo Accent    #536DFE
+    Text Primary     #212121
+    Text Secondary   #727272
+    black            #777777
+    Blue    #4582ec
+    Grey    #333333
+    Grey2   #95A5A6
+    Madison #2C3E50
+    Iron    #DADFE1
+
+*/
+
+html, body {
+    background-color: #fff;
+}
+
+body {
+    color: #212121;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer li a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+.col-md-12{
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+#main {
+    padding-left: 180px;
+    padding-right: 180px;
+    margin: auto;
+}
+#login, #daftar {
+    width: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+#daftar .btn {
+    width: 300px;
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.form-control, .form-inline {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.panel {
+    border-radius: 0px;
+}
+
+.panel-default .panel-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.panel-default .panel-heading a:hover {
+    text-decoration: none;
+}
+.edithapus li {
+    list-style: none;
+    display: inline;
+}
+
+

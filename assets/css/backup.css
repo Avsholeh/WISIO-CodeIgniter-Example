@@ -1,0 +1,141 @@
+/**
+ *
+ *  Custom Bootstrap CSS for WISIO
+ *  Author @avsholeh
+ * 
+**/
+
+/*  Color Details
+    Indigo Primary   #3F51B5
+    Indigo Dark      #303F9F
+    Indigo Accent    #536DFE
+    Text Primary     #212121
+    Text Secondary   #727272
+    Blue    #4582ec
+    Grey    #333333
+    Grey2   #95A5A6
+    Madison #2C3E50
+    Iron    #DADFE1
+
+*/
+
+html, body {
+    background-color: #fff;
+}
+body {
+    color: #212121;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+}
+
+h1 a {
+    font-size: 16px;
+    color: #212121;
+}
+
+h1 a:hover {
+    color: #536DFE;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #303F9F;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer li, footer li a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+footer li a:hover {
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+
+/* --- Custom Debug --- */
+
+.debug {
+    background-color: aqua;
+}
+
+.debug2 {
+    background-color: brown;
+}
+
+.debug3 {
+    background-color: indianred;
+}
+
+.debug4 {
+    background-color: rosybrown;
+}
+
+/* --- ./Custom Debug --- */
+
+.container-fluid {
+    padding: 20px 180px 20px 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* --- Custom Navbar --- */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #7986CB;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    padding-left: 180px;
+    padding-right: 180px;
+    border-bottom-color: #4582ec;
+    border-bottom-style: 10px solid #4582ec;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #303F9F !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* Custom Panel Default */
+
+.panel-default, .panel-heading, .panel-heading a, {
+    color: #fff;
+    background-color: #9575CD;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+/*.panel-default > .panel-heading {
+    background-color: #9575CD;
+    color: #fff;
+}*/
+
+/*.panel-default:hover {
+    border-bottom: 3px solid transparent;
+    border-bottom-color: #536DFE;
+}*/
+
+.panel-heading, .panel-heading a:hover{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
