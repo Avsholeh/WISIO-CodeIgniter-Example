@@ -1,1 +1,1 @@
-# wisio-codeIgniter-project
+# WISIO CodeIgniter Project
